@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/jquery-3.1.1.js"></script>
     <script src="js/scripts.js"></script>
@@ -11,15 +11,21 @@
     <h1>Welcome to New York!</h1>
 
     <div class="hideable">
-      <p class="show">
+      <p class="unhide">
         Click to show.
       </p>
     </div>
 
     <div class="hideable">
-      <p id="hide" class="show">
+      <p id="unshow" class="unhide">
         Click to hide.
       </p>
+    </div>
+    
+    <div id="resize">
+      <button type="button" id="big">Big</button>
+      <button type="button" id="medium">Medium</button>
+      <button type="button" id="small">Small</button>
     </div>
 
     <img id="image" src="https://i.ytimg.com/vi/Fl7V5dX5IrM/maxresdefault.jpg" alt="New York"/>
